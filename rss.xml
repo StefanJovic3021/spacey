@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>SpaceY Glavna stranica</title>
+  <link>https://stefanjovic3021.github.io/spacey</link>
+  <description>Stranica o solarnom sistemu</description>
+  <item>
+    <title>Dobrodošli</title>
+    <link>https://stefanjovic3021.github.io/spacey/index.html</link>
+    <description>Uvodni deo web sajta i sadržaj</description>
+  </item>
+  <item>
+    <title>Nebeska tela</title>
+    <link>https://stefanjovic3021.github.io/spacey/#nebeska_tela</link>
+    <description>Informacije o nebeskim telima</description>
+  </item>
+  <item>
+    <title>Sunce</title>
+    <link>https://stefanjovic3021.github.io/spacey/#sunce</link>
+    <description>Informacije o Suncu</description>
+  </item>
+  <item>
+    <title>Merkur</title>
+    <link>https://stefanjovic3021.github.io/spacey/#merkur</link>
+    <description>Informacije o Merkuru</description>
+  </item>
+  <item>
+    <title>Venera</title>
+    <link>https://stefanjovic3021.github.io/spacey/#venera</link>
+    <description>Informacije o Veneri</description>
+  </item>
+  <item>
+    <title>Zemlja i Mesec</title>
+    <link>https://stefanjovic3021.github.io/spacey/#zemlja</link>
+    <description>Informacije o Zemlji i njenom prirodnom satelitu, Mesecu</description>
+  </item>
+  <item>
+    <title>Mars</title>
+    <link>https://stefanjovic3021.github.io/spacey/#mars</link>
+    <description>Informacije o Marsu i njegova dva prirodna satelita, Fobos i Dejmos</description>
+  </item>
+  <item>
+    <title>Jupiter</title>
+    <link>https://stefanjovic3021.github.io/spacey/#jupiter</link>
+    <description>Informacije o Jupiteru</description>
+  </item>
+  <item>
+    <title>Saturn</title>
+    <link>https://stefanjovic3021.github.io/spacey/#saturn</link>
+    <description>Informacije o Saturnu</description>
+  </item>
+  <item>
+    <title>Uran</title>
+    <link>https://stefanjovic3021.github.io/spacey/#uranus</link>
+    <description>Informacije o Uranu</description>
+  </item>
+  <item>
+    <title>Neptun</title>
+    <link>https://stefanjovic3021.github.io/spacey/#neptun</link>
+    <description>Informacije o Neptunu</description>
+  </item>
+</channel>
+
+</rss>
