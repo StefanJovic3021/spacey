@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SPACE Y | Kontakt</title>
+		<link rel="icon" href="img/page_icon_optimised.ico"/>
+		<!-- Naredna 3 reda su vezana za custom font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"/> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="icomoon/style.css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<!-- Header Stranice start //-->
+		<header>
+			<div id="header_str">
+				<a href="index.html"><img src="img/logo3.png" id="glavni_logo" alt="logo sajta"/></a>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html"><div>
+							<p>Početna strana</p>
+						</div></a>
+					</li>
+					<li>
+						<a href="gallery.html"><div>
+							<p>Galerija i tapeti</p>
+						</div></a>
+					</li>
+					<li>
+						<div><a href="o_nama.html">
+							<p>O nama</p>
+						</div></a>
+					</li>
+					<li>
+						<div><a href="kontakt.html">
+							<p class="selected_text">Kontakt</p>
+						</div></a>
+					</li>
+					<li>
+						<div><a href="o_autoru.html">
+							<p>O autoru</p>
+						</div></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Header Stranice end //-->
+		<!-- Telo stranice start //-->
+		<div class="telo" id="kontakt_stranica">
+			<h1 class="naslov">//KONTAKT</h1>
+			<hr/>
+			<div class="div_kontejner centriranje">
+				<div id="form_kontejner">
+					<form method="GET" action="kontakt.php" id="forma_1">
+						<span id="forma_naslov">Kontaktirajte nas!</span>
+						<div>
+							<input type="textbox" name="ime_i_prezime" id="ime_i_prezime" placeholder="Ime" autofocus required/>
+						</div>
+						<div>
+							<input type="email" name="e-mail" id="e-mail" placeholder="E-Mail" required/>
+						</div>
+						<div>
+							<textarea id="textarea" placeholder="Vaša poruka"></textarea>
+						</div>
+						<div>
+							<input type="submit" id="dugme_posalji" value="Pošalji podatke"/>
+							<input type="reset" id="dugme_resetuj" value="Obriši podatke"/>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			
+		</div>
+		<!-- Telo stranice end //-->
+		<!-- Footer start //-->
+		<footer>
+			<div id="footerBlock">
+				<div id="footerSection">
+					<div class="footerDivide">
+						<p id="footerText">
+							SPACE-Y je parodija firmi poput NASA i SpaceX-a.<br/>
+							Ovo nije ismevanje ili nepoštovanje ovih kompanija<br/>
+							već prosta kopija i akademski projekat. <br/>
+							:) 
+						</p>
+						<img id="img1" src="img/logo3.png"/>
+					</div>
+					<div class="footerDivide">
+						<p id="footerText">
+							<a href="https://www.instagram.com/jovicc_stefan/" target="_blank"><span class="icon-instagram ikonice"></span></a>
+							<a href="https://www.facebook.com" target="_blank"><span class="icon-facebook2 ikonice"></span></a>
+							<a href="https://www.youtube.com" target="_blank"><span class="icon-youtube ikonice"></span></a>
+							<br/>
+							<a href="kontakt.html"><span class="icon-envelop ikonice"></span></a>
+							<a href="rss.xml" target="_blank"><span class="icon-rss2 ikonice"></span></a>
+							<br/>
+							<a href="sitemap.xml" target="_blank"><span class="icon-sitemap ikonice"></span></a>
+						</p>
+						<img id="img2" src="img/logozaFirmuUPozadini.png"/>
+					</div>
+					<div class="cleaner"></div>
+				</div>
+			</div>
+			<p id="footerEndText">Sva prava zadržana &copy; Stefan Jović 2021.</p>
+		</footer>
+		<!-- Footer end //-->
+	</body>
+</html>

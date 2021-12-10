@@ -1,0 +1,561 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../img/wallpaper3-min.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: contain;
+}
+.cleaner{
+	clear: both;
+}
+.div_kontejner{
+	display: flex;
+	width: 100%;
+}
+img{
+	border-radius: 5px;
+}
+a:hover{
+	color: #0050ff;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 25px;
+}
+/* START - HEADER Stranice*/
+#header_str{
+	width: 100%;
+	min-width: 100%;
+	height: 90px;
+	background-color: #143659;
+}
+#glavni_logo{
+	margin: 7px 0px;
+	width: 360px;
+}
+nav ul{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	min-width: 100%;
+	height: 45px;
+	background-color: #0e263f;
+	list-style-type: none;
+}
+nav div:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 2px solid rgba(256, 0, 0, 0.7);
+	color: #ffffff;
+	font-weight: 600;
+	transition: border 0.2s;
+	transition: background-color 0.2s;
+}
+nav div{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 2px solid rgba(0, 0, 0, 0);
+	width: 140px;
+	height: 43px;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+nav p{
+	color: #ffffff;
+	text-align: center;
+	margin: 10px 0px;
+}
+.selected_text{
+	color: #ff0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* END - HEADER Stranice*/
+/* START - Stilizacaija različitih blokova stranice*/
+.telo{
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	width: 1300px;
+	padding: 40px;
+	box-shadow: 0px 10px 20px #000;
+}
+.telo hr{
+	width: 40%;
+	margin-bottom: 30px;
+	float: left;
+}
+/* Blok sa asteroidom */
+#asteroid{
+	background-image: url("../img/asteroid_wallpaper.png");
+	height: 1400px;
+}
+#asteroid a, a{
+	color: #00a9ff;
+	text-decoration: none;
+}
+#asteroid a:hover{
+	color: #00e9ff;
+	font-weight: 600;
+}
+/* Blok sa Suncem */
+#sunce{
+	background-image: url("../img/sun_wallpaper.png");
+	height: 1100px;
+}
+#sunce a{
+	color: #ff3700;
+	text-decoration: none;
+}
+#sunce a:hover{
+	color: #ff6666;
+	font-weight: 600;
+}
+/* Blok sa Merkurom */
+#merkur{
+	background-image: url("../img/mercury_wallpaper.png");
+	height: 1100px;
+}
+#merkur a{
+	color: #ffe587;
+	text-decoration: none;
+}
+#merkur a:hover{
+	color: #fff719;
+	font-weight: 600;
+}
+/* Blok sa Venerom */
+#venera{
+	background-image: url("../img/venera_wallpaper.png");
+	height: 1200px;
+}
+#venera a{
+	color: #ff9d00;
+	text-decoration: none;
+}
+#venera a:hover{
+	color: #ef3f00;
+	font-weight: 600;
+}
+/* Blok sa Zemljom */
+#zemlja{
+	background-image: url("../img/zemlja_wallpaper.png");
+	height: 1900px;
+}
+#zemlja a{
+	color: #00ff7f;
+	text-decoration: none;
+}
+#zemlja a:hover{
+	color: #00ff00;
+	font-weight: 600;
+}
+/* Blok sa Marsom */
+#mars{
+	background-image: url("../img/mars_wallpaper.png");
+	height: 1500px;
+}
+#mars a{
+	color: #e9ff00;
+	text-decoration: none;
+}
+#mars a:hover{
+	color: #ff0000;
+	font-weight: 600;
+}
+/* Blok sa Jupiterom */
+#jupiter{
+	background-image: url("../img/jupiter_wallpaper.png");
+	height: 1250px;
+}
+#jupiter a{
+	color: #ffec77;
+	text-decoration: none;
+}
+#jupiter a:hover{
+	color: #fff719;
+	font-weight: 600;
+}
+/* Blok sa Saturnom */
+#saturn{
+	background-image: url("../img/saturn_wallpaper.png");
+	height: 850px;
+}
+#saturn a{
+	color: #fff5c1;
+	text-decoration: none;
+}
+#saturn a:hover{
+	color: #fff719;
+	font-weight: 600;
+}
+/* Blok sa Uranom */
+#uran{
+	background-image: url("../img/uranus_wallpaper.png");
+	height: 1230px;
+}
+#uran a{
+	color: #96ffea;
+	text-decoration: none;
+}
+#uran a:hover{
+	color: #00f6ff;
+	font-weight: 600;
+}
+/* Blok sa Neptunom */
+#neptun{
+	background-image: url("../img/neptun_wallpaper.png");
+	height: 1200px;
+}
+#neptun a{
+	color: #325bff;
+	text-decoration: none;
+}
+#neptun a:hover{
+	color: #0099ff;
+	font-weight: 600;
+}
+/* Blok galerije (Slično kao asteroid ali mnogo viši blok) */
+#galerija{
+	background-image: url("../img/asteroid_wallpaper.png");
+	height: 2000px;
+}
+/* Blok na stranici "o nama" (Slično kao asteroid ali mnogo viši blok) */
+#o_nama{
+	background-image: url("../img/asteroid_wallpaper.png");
+	height: 2250px;
+}
+/* Blok na stranici "kontakt" (Slično kao asteroid ali mnogo kraći blok) */
+#kontakt_stranica{
+	background-image: url("../img/asteroid_wallpaper.png");
+	height: 1000px;
+}
+.naslov{
+	color: #ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.blok_lista1 .naslov{
+	color: #ff0000;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 10px;
+}
+.paragraf{
+	color: #ffffff;
+	font-size: 20px;
+	width: 100%;
+    line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.prostor{
+	margin-top: 60px;
+}
+/* END - Stilizacaija različitih blokova stranice*/
+/* START - GALERIJA Stranice*/
+#kontejner_za_slike{
+	padding: 30px;
+	width: 1200px;
+	height: 1820px;
+	/*border: 1px solid rgba(256, 0, 0, 0.7);*/
+	margin: 0px auto;
+}
+.podkontejner_za_slike{
+	width: 375px;
+	height: 1820px;
+	display: inline-block;
+	/*border: 1px solid rgba(256, 0, 0, 0.7);*/
+}
+.sredisnji_kontejner{
+	margin: 0px 30px;
+}
+#kontejner_za_slike div:hover{
+	border: 3px solid rgba(256, 0, 0, 0.6);
+}
+.slikaIzGalerije{
+	width: 375px;
+	background-image: url("../img/gallery/web_picture.jpg");
+	border-radius: 15px;
+	border: 3px solid #000;
+	margin-bottom: 30px;
+	display: block;
+	transition: border 0.3s;
+}
+#slika01{
+	height: 300px;
+}
+#slika02{
+	height: 562px;
+	background-position: 0px -300px;
+}
+#slika03{
+	height: 256px;
+	background-position: 0px -862px;
+}
+#slika04{
+	height: 250px;
+	background-position: -375px 0px;
+}
+#slika05{
+	height: 250px;
+	background-position: -375px -250px;
+}
+#slika06{
+	height: 250px;
+	background-position: -375px -500px;
+}
+#slika07{
+	height: 269px;
+	background-position: -375px -750px;
+}
+#slika08{
+	height: 563px;
+	background-position: -750px 0px;
+}
+#slika09{
+	height: 375px;
+	background-position: -750px -563px;
+}
+#slika10{
+	height: 249px;
+	background-position: -750px -938px;
+}
+#slika11{
+	height: 562px;
+	background-position: -1125px 0px;
+}
+#slika12{
+	height: 376px;
+	background-position: -1125px -562px;
+}
+#slika13{
+	height: 375px;
+	background-position: -1125px -938px;
+}
+/* END - GALERIJA Stranice*/
+#lista{
+	color: #ffffff;
+	font-size: 20px;
+	float: left;
+    line-height: 2;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 20px;
+}
+#podlista{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 20px;
+}
+.blok_lista1{
+	width: 49%;
+}
+.ekstenzija_blok_liste{
+	width: 80%;
+}
+.blok_lista1 .paragraf{
+	margin-bottom: 20px;
+}
+.blok_lista2{
+	display: flex;
+	width: 49%;
+	flex-direction: column;
+	align-items: flex-end;
+}
+/* START - Forma */
+.centriranje{
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap
+}
+#form_kontejner{
+	width: 600px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 3px solid rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	padding: 72px 55px 90px 55px;
+	margin-top: 100px;
+}
+#forma_1{
+	width: 100%;
+}
+#forma_naslov{
+	display: block;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+	padding-bottom: 60px;
+	font-weight: bold;
+}
+#forma_1 #ime_i_prezime{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+#forma_1 #ime_i_prezime:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#forma_1 #e-mail{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+#forma_1 #e-mail:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#textarea{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	width: 100%;
+	max-width: 100%;
+	height: 115px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+#textarea:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#dugme_posalji, #dugme_resetuj{
+	background: rgba(0, 0, 0, 0.6);
+	width: 50%;
+	border: none;
+	height: 40px;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+	float: left;
+}
+#dugme_posalji:hover{
+	background: rgba(0, 0, 256, 0.3);
+}
+#dugme_resetuj:hover{
+	background: rgba(256, 0, 0, 0.3);
+}
+/* END - Forma */
+/* START - Deskripciona tabela (nalazi se kao mini-opis ispod slike nebeskog tela)*/
+.description_tabela{
+	width: inherit;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 3px solid rgba(0, 0, 0, 0.6);
+	line-height: 3;
+}
+.description_tabela_text{
+	color: #ffffff;
+	font-size: 15px;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/* END - Deskripciona tabela (nalazi se kao mini-opis ispod slike nebeskog tela)*/
+#osnivac{
+	background-image: url("../img/firma.jpg");
+	background-position: center;
+	background-size: contain;
+	width: 336px;
+	height: 502px;
+	float: right;
+	border-radius: 10px;
+}
+#citat{
+	font-size: 15px;
+}
+/* START - Lista koja se nalazi ispod slike autora*/
+#autor_lista{
+	width: 330px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 3px solid rgba(0, 0, 0, 0.6);
+	line-height: 50px;
+}
+.autor_lista_tekst{
+	color: #ffffff;
+	font-size: 18px;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/* END - Lista koja se nalazi ispod slike autora*/
+/* START - FOOTER Stranice*/
+footer{
+	margin-top: 250px;
+	border-top: 6px solid #000000;
+}
+footer #footerBlock{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.9);
+	background-image: url("../img/footer2_5.png");
+	background-size: cover;
+	background-position: top;
+	/* 500px za šator */
+	/* top za kamenje */
+	/* 500px za ISS */
+	/* 700px za šumu */
+	/* center za planine */
+	position: relative;
+}
+footer #footerBlock #footerSection{
+	width: 50%;
+	height: 350px;
+	margin: 25px 25%;
+	position: absolute;
+	display: flex;
+}
+footer #footerBlock #footerSection .footerDivide{
+	width: 50%;
+	height: 350px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#footerText{
+	color: #c2c2c2;
+	font-size: 20px;
+    line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+.ikonice{
+	font-size: 30px;
+	margin: 30px;
+}
+#footerEndText{
+	padding: 15px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #000000;
+}
+.footerDivide #img1{
+	margin: 10% 25%;
+	width: 50%;
+}
+.footerDivide #img2{
+	margin: 5% 33%;
+	width: 33%;
+}
+/* END - FOOTER Stranice*/
